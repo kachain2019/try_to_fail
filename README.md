@@ -40,8 +40,8 @@
      ตัวอย่างผลลัพธ์  myReport.html ]
   
           *** เราสามารถรวม  Option ที่ 4.2 - 4.4 ใช้ทีเดียวได้นะครับ
-      คำสั่ง >> robot -r myReport -l myLog -o myOutput  try_to_fail.robot
-      ผลลัพธ์คือเราจะได้ชื่อไฟล์ log,output.report ตามที่เรากำหนดครับ
+          คำสั่ง >> robot -r myReport -l myLog -o myOutput  try_to_fail.robot
+          ผลลัพธ์คือเราจะได้ชื่อไฟล์ log,output.report ตามที่เรากำหนดครับ
  
  5. มาดู Option  ที่เกี่ยวกับ report ของการรันกันต่อครับ
  
