@@ -20,12 +20,12 @@
 4. ผมจะเลือก  Options  ให้ทุกคนลองดูดังนี้ครับ (ใช้คำสั่งที่ TERMINAl ของ Visual Code แล้วดูผลลัพธ์ได้เลยครับ)
 
     * 4.1  รูปแบบคำสั่ง  robot -T (filename).robot  
-    คำสั่ง [x] robot -T try_to_fail.robot  
+    คำสั่ง >> robot -T try_to_fail.robot  
     [Option -T คือ ไฟล์ report,log,output จะถูกแปะ -ปีเดือนวัน-เวลา
     ตัวอย่างผลลัพธ์  report-20190426-150840.html]
     
     * 4.2  รูปแบบคำสั่ง  robot -o (ชื่อไฟล์ที่ต้องการตั้ง).xml (filename).robot  
-    คำสั่ง [x] robot -o myTest.xml try_to_fail.robot  
+    คำสั่ง >> robot -o myTest.xml try_to_fail.robot  
     [Option -o คือ การกำหนดชื่อไฟล์ output ให้เป็นชื่อไฟล์ที่เราต้องการ
     ตัวอย่างผลลัพธ์  report-20190426-150840.html]
 
