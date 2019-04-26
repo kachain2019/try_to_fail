@@ -12,8 +12,7 @@
 ## มาเริ่มกันเลยครับ
 1. git clone https://github.com/kachain2019/try_to_fail.git 
 2. เปิด Command cmd ในโฟลเดอร์ที่ clone
-3. พิมพ์คำสั่ง >>  robot -help
-
+3. พิมพ์คำสั่ง >>  robot -help   เราจะเห็นว่ามันมี Options มากมายหรือที่เรียกว่า User Guild นั่นเองครับ
 
 
 
