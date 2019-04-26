@@ -26,6 +26,6 @@
     
     * 4.2  รูปแบบคำสั่ง  robot -o (ชื่อไฟล์ที่ต้องการตั้ง).xml (filename).robot  
     คำสั่ง >> robot -o myTest.xml try_to_fail.robot  
-    [Option -o คือ การกำหนดชื่อไฟล์ output ให้เป็นชื่อไฟล์ที่เราต้องการ
-    ตัวอย่างผลลัพธ์  report-20190426-150840.html]
+    [Option -o คือ การกำหนดชื่อไฟล์ output.xml ให้เป็นชื่อไฟล์ที่เราต้องการ
+    ตัวอย่างผลลัพธ์  myTest.xml
 
