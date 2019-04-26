@@ -10,7 +10,9 @@
 ซึ่งในโค้ดชุดนี้เราต้องการเพื่อจะแนะนำคำสั่งใน cmd นั่นเองครับ
 
 ## มาเริ่มกันเลยครับ
-* git clone 
+1. git clone https://github.com/kachain2019/try_to_fail.git 
+2. เปิด Command cmd ในโฟลเดอร์ที่ clone
+3. พิมพ์คำสั่ง >>  robot -help
 
 
 
