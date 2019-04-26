@@ -43,7 +43,7 @@
       คำสั่ง >> robot -r myReport -l myLog -o myOutput  try_to_fail.robot
       
     * 4.6  รูปแบบคำสั่ง >> robot --output (ชื่อไฟล์ที่ต้องการตั้ง).xml try_to_fail.robot
-      คำสั่ง >> robot --output result01.xml try_to_fail.robot 
+      คำสั่ง >> robot --output result01.xml try_to_fail.robot
       [ Option -r  คือ การกำหนดชื่อไฟล์ report.html ให้เป็นชื่อไฟล์ที่เราต้องการ
       ตัวอย่างผลลัพธ์  myReport.html ]
  
