@@ -21,15 +21,23 @@
 
     * 4.1  รูปแบบคำสั่ง >> robot -T (filename).robot  
     คำสั่ง >> robot -T try_to_fail.robot  
-    [ Option -T คือ ไฟล์ report,log,output จะถูกแปะ -ปีเดือนวัน-เวลา
+    [ Option -T  คือ ไฟล์ report,log,output จะถูกแปะ -ปีเดือนวัน-เวลา
      ตัวอย่างผลลัพธ์  report-20190426-150840.html ]
     
     * 4.2  รูปแบบคำสั่ง >> robot -o (ชื่อไฟล์ที่ต้องการตั้ง).xml (filename).robot  
     คำสั่ง >> robot -o myTest.xml try_to_fail.robot  
-    [ Option -o คือ การกำหนดชื่อไฟล์ output.xml ให้เป็นชื่อไฟล์ที่เราต้องการ
+    [ Option -o  คือ การกำหนดชื่อไฟล์ output.xml ให้เป็นชื่อไฟล์ที่เราต้องการ
      ตัวอย่างผลลัพธ์  myTest.xml ]
 
     * 4.3  รูปแบบคำสั่ง >> robot -l (ชื่อไฟล์ที่ต้องการตั้ง).html (filename).robot  
     คำสั่ง >> robot -l myLog.html try_to_fail.robot  
-    [ Option -l คือ การกำหนดชื่อไฟล์ log.html ให้เป็นชื่อไฟล์ที่เราต้องการ
+    [ Option -l  คือ การกำหนดชื่อไฟล์ log.html ให้เป็นชื่อไฟล์ที่เราต้องการ
      ตัวอย่างผลลัพธ์  myLog.html ]
+     
+    * 4.4  รูปแบบคำสั่ง >> robot -r (ชื่อไฟล์ที่ต้องการตั้ง).html (filename).robot  
+    คำสั่ง >> robot -r myReport.html try_to_fail.robot  
+    [ Option -r  คือ การกำหนดชื่อไฟล์ report.html ให้เป็นชื่อไฟล์ที่เราต้องการ
+     ตัวอย่างผลลัพธ์  myReport.html ]
+  
+  *** หมายเหตุ : เราสามารถใช้งาน [Option ที่ 4.2 - 4.4 ได้ด้วยนะครับ]
+      คำสั่ง  >>  robot -r myReport -l myLog -o myOutput  try_to_fail.robot
