@@ -21,4 +21,7 @@
    4.1  คำสั่ง  robot -T (filename).robot  [Option -T คือ ไฟล์ report,log,output จะถูกแปะ ปีเดือนวัน-เวลา ต่อท้ายครับ
          Format คือ `YYYYMMDD-hhmmss`]
 
+4. ผมจะเลือก  Options  ให้ทุกคนลองดูดังนี้ครับ (ใช้คำสั่งที่ TERMINAl ของ Visual Code แล้วดูผลลัพธ์ได้เลยครับ)
+  * 4.1  คำสั่ง  robot -T (filename).robot  [Option -T คือ ไฟล์ report,log,output จะถูกแปะ ปีเดือนวัน-เวลา ต่อท้ายครับ
+    * Installation
 
