@@ -60,6 +60,13 @@
          ให้รันคำสั่ง >> rebot --merge result01.xml result02.xml  
          
      ลองเปิดไฟล์ report ดูครับจะเห็นผลลัพธ์ของคำสั่ง
+     
+# ลองเล่นจะเป็นไร...
+
+     แปะลิ้งไว้ให้ลองเล่นดูน่ะครับ ลองทำให้กดปุ่ม SHOW PAGE LOADER เข้าไป แล้วให้กดปุ่ม GO BACK กลับมาครับ
+  
+  Link : https://tympanus.net/Development/PageLoadingEffects/
+     
    
    ￼
 
