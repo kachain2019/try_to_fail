@@ -17,7 +17,7 @@
    
 3. แนะนำให้ใช้ Editor เป็น Visual Code นอครับหรือที่เรียกติดปากว่า VS Code 
 
-4. ผมจะเลือก  Options  ให้ทุกคนลองดูดังนี้ครับ (ใช้คำสั่งที่ TERMINAl ของ Visual Code แล้วดูผลลัพธ์ได้เลยครับ)
+4. ผมจะเลือก  Options  เกี่ยวกับไฟล์ให้ทุกคนลองดูดังนี้ครับ (ใช้คำสั่งที่ TERMINAl ของ Visual Code แล้วดูผลลัพธ์ได้เลยครับ)
 
     * 4.1  รูปแบบคำสั่ง >> robot -T (filename).robot  
     คำสั่ง >> robot -T try_to_fail.robot  
@@ -39,6 +39,16 @@
     [ Option -r  คือ การกำหนดชื่อไฟล์ report.html ให้เป็นชื่อไฟล์ที่เราต้องการ
      ตัวอย่างผลลัพธ์  myReport.html ]
   
-    * 4.5  [Option ที่ 4.2 - 4.4 ได้ด้วยนะครับ]
-      คำสั่ง  >>  robot -r myReport -l myLog -o myOutput  try_to_fail.robot
-  
+    * 4.5  [ Option ที่ 4.2 - 4.4 ได้ด้วยนะครับ ]
+    คำสั่ง >> robot -r myReport -l myLog -o myOutput  try_to_fail.robot
+      
+    * 4.6  รูปแบบคำสั่ง >> robot --output (ชื่อไฟล์ที่ต้องการตั้ง).xml try_to_fail.robot
+    คำสั่ง >> robot --output result01.xml try_to_fail.robot 
+    [ Option -r  คือ การกำหนดชื่อไฟล์ report.html ให้เป็นชื่อไฟล์ที่เราต้องการ
+     ตัวอย่างผลลัพธ์  myReport.html ]
+ 
+ 5. มาดู Option  ที่เกี่ยวกับ report ของการรันกันต่อครับ
+ 
+     * 5.1  Run คำสั่ง >>   robot --output result01.xml try_to_fail.robot  รันจนกว่าจะเจอเคส FAIL นะครับ
+     เมื่อมัน FAIL แล้วให้รันคำสั่ง >> robot --rerunfailed result01.xml --output result02.xml try_to_fail.robot
+     - อธิบาย [ Option --rerunfailed ] มันคือการสั่งให้รันไฟ์ result01.xml ที่ผมให้รันให้เจอเคส FAIL แล้วให้เราเก็บผลของการรันที่ไฟล์  result02.xml ครับ
