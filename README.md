@@ -51,4 +51,4 @@
  
      * 5.1  Run คำสั่ง >>   robot --output result01.xml try_to_fail.robot  รันจนกว่าจะเจอเคส FAIL นะครับ
      เมื่อมัน FAIL แล้วให้รันคำสั่ง >> robot --rerunfailed result01.xml --output result02.xml try_to_fail.robot
-     - อธิบาย [ Option --rerunfailed ] มันคือการสั่งให้รันไฟ์ result01.xml ที่ผมให้รันให้เจอเคส FAIL แล้วให้เราเก็บผลของการรันที่ไฟล์  result02.xml ครับ
+     อธิบาย [ Option --rerunfailed ] มันคือการสั่งให้รันไฟ์ result01.xml ที่ผมให้รันให้เจอเคส FAIL แล้วให้เราเก็บผลของการรันที่ไฟล์  result02.xml ครับ
