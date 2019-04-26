@@ -56,14 +56,10 @@
      * 6.1  รูปแบบคำสั่ง >>  rebot --merge ชื่อไฟล์ที่1.xml ชื่อไฟล์ที่2.xml 
      
     [Option --merge คือการรวม report ผลของการเทสจากไฟล์ที่เรากำหนดในรูปแบบคำสั่งข้างบนครับ]
-    
-                รันคำสั่ง : robot --output result01.xml try_to_fail.robot 
-                รันคำสั่ง : robot --output result02.xml try_to_fail.robot
-     ผลของการรันจะถูกเก็บอยู่ในไฟล์ result01.xml และ result02.xml
      
          ให้รันคำสั่ง >> rebot --merge result01.xml result02.xml  
          
-     คือการรวม report ของการรันไฟล์  result01.xml result02.xml  ลองเปิดไฟล์ report ดูครับจะเห็นผลลัพธ์ของคำสั่ง
+     ลองเปิดไฟล์ report ดูครับจะเห็นผลลัพธ์ของคำสั่ง
    
    ￼
 
