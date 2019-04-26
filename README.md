@@ -20,7 +20,7 @@
 4. ผมจะเลือก  Options  ให้ทุกคนลองดูดังนี้ครับ (ใช้คำสั่งที่ TERMINAl ของ Visual Code แล้วดูผลลัพธ์ได้เลยครับ)
 
    ------------------------------------------------------------------------------------------
-   คำสั่ง  robot -T <filename>.robot  
+   คำสั่ง  robot -T (filename).robot  
          [Option -T คือ ไฟล์ report,log,output จะถูกแปะ ปีเดือนวัน-เวลา ต่อท้ายครับ
          Format คือ `YYYYMMDD-hhmmss`]
    คำสั่ง  robot -T try_to_fail.robot
