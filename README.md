@@ -39,7 +39,7 @@
     [ Option -r  คือ การกำหนดชื่อไฟล์ report.html ให้เป็นชื่อไฟล์ที่เราต้องการ
      ตัวอย่างผลลัพธ์  myReport.html ]
   
-   * เราสามารถรวม  Option ที่ 4.2 - 4.4 ใช้ทีเดียวได้นะครับ
+  * เราสามารถรวม  Option ที่ 4.2 - 4.4 ใช้ทีเดียวได้นะครับ
       คำสั่ง >> robot -r myReport -l myLog -o myOutput  try_to_fail.robot
       ผลลัพธ์คือเราจะได้ไฟล์ที่ log,output.report ตามที่เรากำหนดครับ
  
