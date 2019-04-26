@@ -57,8 +57,8 @@
      
     [Option --merge คือการรวม report ผลของการเทสจากไฟล์ที่เรากำหนดในรูปแบบคำสั่งข้างบนครับ]
     
-     รันคำสั่ง : robot --output result01.xml try_to_fail.robot 
-     รันคำสั่ง : robot --output result02.xml try_to_fail.robot
+                รันคำสั่ง : robot --output result01.xml try_to_fail.robot 
+                รันคำสั่ง : robot --output result02.xml try_to_fail.robot
      ผลของการรันจะถูกเก็บอยู่ในไฟล์ result01.xml แบะ result02.xml
      
          ให้รันคำสั่ง >> rebot --merge result01.xml result02.xml  
