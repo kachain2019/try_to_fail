@@ -10,7 +10,7 @@
 ซึ่งในโค้ดชุดนี้เราต้องการเพื่อจะแนะนำคำสั่งใน cmd นั่นเองครับ
 
 ## มาเริ่มกันเลยครับ
-1. git clone https://github.com/kachain2019/try_to_fail.git 
+1. git clone https://github.com/kachain2019/try_to_fail.git ]  ลงเครื่องตัวเองเลยครับ
 2. เปิด Command cmd ในโฟลเดอร์ที่ clone
 3. พิมพ์คำสั่ง >>  robot -help   เราจะเห็นว่ามันมี Options มากมายหรือที่เรียกว่า User Guild นั่นเองครับ
 4. แนะนำให้ใช้ Editoer เป็น Visual Code นอครับหรือที่เรียกติดปากว่า VS Code 
