@@ -50,3 +50,10 @@
      ให้รันคำสั่ง >> robot --rerunfailed result01.xml --output result02.xml try_to_fail.robot
      
            อธิบาย [ Option --rerunfailed ] มันคือการสั่งให้รันไฟ์ result01.xml ที่ผมให้รันให้เจอเคส FAIL แล้วให้เราเก็บผลของการรันที่ไฟล์  result02.xml ครับ
+  
+  6. มาดู Option  ใน rebot กันสักตัวอย่างครับ พิมพ์คำสั่ง rebot -help เพื่อดู User Guild ของ rebot ได้เลยครับ
+ 
+     * 6.1  รูปแบบคำสั่ง >>  rebot --merge ชื่อไฟล์ที่1.xml ชื่อไฟล์ที่2.xml 
+     [ Option  --merge คือการรวม report ผลของการเทสจากไฟล์ที่เรากำหนดในรูปแบบคำสั่งข้างบนครับ]
+     ให้รันคำสั่ง >> rebot --merge result01.xml result02.xml     
+   
